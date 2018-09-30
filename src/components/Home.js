@@ -139,21 +139,48 @@ class Home extends Component{
         </div>
 
 
+        <div className="subsection learning">
+            <Row>
+                <Col sm={4}>
+                  <a href="https://shinphoowin.github.io/todoapp-react-redux/">
+                  <img src={require("../assets/images/index.jpeg")} alt="react redux crud" style={{width:200,borderRadius:0}}/>
+                  <h4>Todo App(React-Redux)</h4>
+                  <p>
+                    This is react-recux crud app.<br/>
+                    Desktop Version Only<br/>
+                    <b>Usage: React.js,Redux.js</b>
+                  </p>
+            	</a>
+                </Col>
+                <Col sm={4}>
+            		<a href="https://enigmatic-atoll-72996.herokuapp.com/">
+                  <img src={require("../assets/images/index.jpeg")} alt="react redux crud" style={{width:200,borderRadius:0}}/>               
+                  <h4>Form Handling By React</h4>
+                  <p>
+                    This is my react learing tutorial.<br/>
+                    e-book : learning online react sites<br/>
+                    <b>Usage : React.js</b>                    
+                  </p>
+           			</a>
+                </Col>               
+            </Row>
+        </div>
+
         <footer>
-            <div className="header__bg"></div>
-            <Grid>
-                <Row>
-                  <Col xs={12}>
-                    <ul>
-                      <li><a href="https://en-gb.facebook.com/ShinPhooWin"><i className="fa fa-facebook"></i></a></li>
-                      <li><a href="https://twitter.com/ShinPhooWin?lang=en"><i className="fa fa-twitter"></i></a></li>
-                      <li><a href="https://www.linkedin.com/in/shin-phoo-win-3b658799/"><i className="fa fa-linkedin"></i></a></li>
-                      <li><a href="https://plus.google.com/u/0/+ShinPhooWinwin"><i className="fa fa-google-plus"></i></a></li>
-                    </ul>
-                    <p>Copyright &copy; All Right Reserved - Developer Shin Phoo Win</p>
-                  </Col>
-                </Row>
-            </Grid>
+          <div className="header__bg"></div>
+          <Grid>
+            <Row>
+              <Col xs={12}>
+                <ul>
+                  <li><a href="https://en-gb.facebook.com/ShinPhooWin"><i className="fa fa-facebook"></i></a></li>
+                  <li><a href="https://twitter.com/ShinPhooWin?lang=en"><i className="fa fa-twitter"></i></a></li>
+                  <li><a href="https://www.linkedin.com/in/shin-phoo-win-3b658799/"><i className="fa fa-linkedin"></i></a></li>
+                  <li><a href="https://plus.google.com/u/0/+ShinPhooWinwin"><i className="fa fa-google-plus"></i></a></li>
+                </ul>
+                <p>Copyright &copy; All Right Reserved - Developer Shin Phoo Win</p>
+              </Col>
+            </Row>
+          </Grid>
         </footer>
 	</section>
 		)
