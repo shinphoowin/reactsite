@@ -172,10 +172,11 @@ class Home extends Component{
             <Row>
               <Col xs={12}>
                 <ul>
+                  <li><a href="https://github.com/shinphoowin"><i className="fa fa-github"></i></a></li>
                   <li><a href="https://en-gb.facebook.com/ShinPhooWin"><i className="fa fa-facebook"></i></a></li>
                   <li><a href="https://twitter.com/ShinPhooWin?lang=en"><i className="fa fa-twitter"></i></a></li>
                   <li><a href="https://www.linkedin.com/in/shin-phoo-win-3b658799/"><i className="fa fa-linkedin"></i></a></li>
-                  <li><a href="https://plus.google.com/u/0/+ShinPhooWinwin"><i className="fa fa-google-plus"></i></a></li>
+                  <li><a href="https://plus.google.com/u/0/+ShinPhooWinwin"><i className="fa fa-google-plus"></i></a></li>                  
                 </ul>
                 <p>Copyright &copy; All Right Reserved - Developer Shin Phoo Win</p>
               </Col>
