@@ -155,11 +155,11 @@ class Home extends Component{
                 <Col sm={4}>
             		<a href="https://enigmatic-atoll-72996.herokuapp.com/">
                   <img src={require("../assets/images/index.jpeg")} alt="react redux crud" style={{width:200,borderRadius:0}}/>               
-                  <h4>Form Handling By React</h4>
+                  <h4>Book Store Admin</h4>
                   <p>
-                    This is my react learing tutorial.<br/>
-                    e-book : learning online react sites<br/>
-                    <b>Usage : React.js</b>                    
+                    This is react,redux tutorial.<br/>
+                    e-book : All Rerferences sites are listed in index.html<br/>
+                    <b>Usage : React,Redux,Express,Mongodb(mLab)</b>                    
                   </p>
            			</a>
                 </Col>               
