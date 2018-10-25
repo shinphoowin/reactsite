@@ -38,13 +38,13 @@ class Home extends Component{
 			      		<h2>WELCOME TO MY PERSONAL SITE</h2>
 			      		<p>
 			      			<span>
-			      				Shin Phoo Win - Front End Developer
+			      				Shin Phoo Win - Front End Developer(React,Redux,Nodejs)
 			      			</span>
 			      		</p>
 			      		<div className="topheader__bg"></div>
 			      	</div>
 			    </Row>
-			</Grid>
+				</Grid>
 	    </div>
 
 	    <h2 className="title" id="workexp">Some Projects Of My Work Experiences</h2>
