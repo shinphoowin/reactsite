@@ -162,7 +162,16 @@ class Home extends Component{
                     <b>Usage : React,Redux,Express,Mongodb(mLab)</b>                    
                   </p>
            			</a>
-                </Col>               
+                </Col>          
+                <Col sm={4}>
+            		<a href="https://enigmatic-atoll-72996.herokuapp.com/">
+                  <img src={require("../assets/images/index.jpeg")} alt="react redux crud" style={{width:200,borderRadius:0}}/>               
+                  <h4>Nodejs, React, Redux, Redux-Form Project</h4>
+                  <p>My latest project for client<br/>                    
+                    <b>Usage : Nodejs, React, Redux, Redux-Form, Express, Mysql</b>                    
+                  </p>
+           			</a>
+                </Col>         
             </Row>
         </div>
 
