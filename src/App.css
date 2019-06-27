@@ -174,7 +174,7 @@ a,a:hover,a:focus{
   border: 2px solid brown;
 }
 img{
-  box-shadow: 0 0 8px 0 #aaa;
+  box-shadow: 0 0 4px 0 #aaa;
 }
 .header__bg,.topheader__bg,.customSkew1,.customSkew{
     position: absolute;
