@@ -14,21 +14,21 @@ class Home extends Component{
 		return(
 		<section>
 			<Navbar>               
-          <NavbarToggle></NavbarToggle>
-          <NavbarHeader></NavbarHeader>
-          <NavbarCollapse>	             
-        	  <Nav className="menu">
-	            <NavItem eventKey={1} href="#aboutme">
-	             About Me
-	            </NavItem>
-	            <NavItem eventKey={2} href="#workexp">
-	             Work Experiences
-	            </NavItem>
-	            <NavItem eventKey={3} href="#jslearn">
-	             Raise Javascript Skill
-	            </NavItem>
-	          </Nav>			         
-          </NavbarCollapse>
+        <NavbarToggle></NavbarToggle>
+        <NavbarHeader></NavbarHeader>
+        <NavbarCollapse>	             
+        	<Nav className="menu">
+	          <NavItem eventKey={1} href="#aboutme">
+	            About Me
+	          </NavItem>
+	          <NavItem eventKey={2} href="#workexp">
+	            Work Experiences
+	          </NavItem>
+	          <NavItem eventKey={3} href="#jslearn">
+	            Raise Javascript Skill
+	          </NavItem>
+	        </Nav>			         
+        </NavbarCollapse>
 	    </Navbar>
 
 	    <div className="ziggy_top" id="aboutme">
