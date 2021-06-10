@@ -138,43 +138,6 @@ class Home extends Component{
             </Row>
         </div>
 
-
-        <div className="subsection learning">
-            <Row>
-                <Col sm={4}>
-                  <a href="https://shinphoowin.github.io/todoapp-react-redux/">
-                  <img src={require("../assets/images/index.jpeg")} alt="react redux crud" style={{width:200,borderRadius:0}}/>
-                  <h4>Todo App(React-Redux)</h4>
-                  <p>
-                    This is react-recux crud app.<br/>
-                    Desktop Version Only<br/>
-                    <b>Usage: React.js,Redux.js</b>
-                  </p>
-            	</a>
-                </Col>
-                <Col sm={4}>
-            		<a href="https://enigmatic-atoll-72996.herokuapp.com/">
-                  <img src={require("../assets/images/index.jpeg")} alt="react redux crud" style={{width:200,borderRadius:0}}/>               
-                  <h4>Book Store Admin</h4>
-                  <p>
-                    This is react,redux tutorial.<br/>
-                    e-book : All Rerferences sites are listed in index.html<br/>
-                    <b>Usage : React,Redux,Express,Mongodb(mLab)</b>                    
-                  </p>
-           			</a>
-                </Col>          
-                <Col sm={4}>
-            		<a href="https://enigmatic-atoll-72996.herokuapp.com/">
-                  <img src={require("../assets/images/index.jpeg")} alt="react redux crud" style={{width:200,borderRadius:0}}/>               
-                  <h4>Nodejs, React, Redux, Redux-Form Project</h4>
-                  <p>My latest project for client<br/>                    
-                    <b>Usage : Nodejs, React, Redux, Redux-Form, Express, Mysql</b>                    
-                  </p>
-           			</a>
-                </Col>         
-            </Row>
-        </div>
-
         <footer>
           <div className="header__bg"></div>
           <Grid>
