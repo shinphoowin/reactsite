@@ -49,43 +49,28 @@ class Home extends Component {
         </div>
 
         <h2 className="title" id="workexp">
-          Some Projects Of My Work Experiences
+          Some of UI Work Experiences
         </h2>
         <div className="subsection">
           <Row>
             <Col xs={6} sm={2}>
-              <a href="#">
-                <img src={require("../assets/images/yitm.png")} alt="yitm" />
-              </a>
+              <img src={require("../assets/images/yitm.png")} alt="yitm" />
             </Col>
             <Col xs={6} sm={2}>
-              <a href="#">
-                <img
-                  src={require("../assets/images/digiforge.png")}
-                  alt="yitm"
-                />
-              </a>
+              <img src={require("../assets/images/digiforge.png")} alt="yitm" />
             </Col>
             <Col xs={6} sm={2}>
-              <a href="#">
-                <img src={require("../assets/images/demon.png")} alt="yitm" />
-              </a>
+              <img src={require("../assets/images/demon.png")} alt="yitm" />
             </Col>
             <Col xs={6} sm={2}>
-              <a href="#">
-                <img src={require("../assets/images/ydth.png")} alt="yitm" />
-              </a>
+              <img src={require("../assets/images/ydth.png")} alt="yitm" />
             </Col>
 
             <Col xs={6} sm={2}>
-              <a href="#">
-                <img src={require("../assets/images/flipped.png")} alt="yitm" />
-              </a>
+              <img src={require("../assets/images/flipped.png")} alt="yitm" />
             </Col>
             <Col xs={6} sm={2}>
-              <a href="#">
-                <img src={require("../assets/images/reg.png")} alt="yitm" />
-              </a>
+              <img src={require("../assets/images/reg.png")} alt="yitm" />
             </Col>
           </Row>
         </div>
