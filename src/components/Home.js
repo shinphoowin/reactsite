@@ -54,23 +54,33 @@ class Home extends Component {
         <div className="subsection">
           <Row>
             <Col xs={6} sm={2}>
-              <img src={require("../assets/images/yitm.png")} alt="yitm" />
+              <a href="http://shinphoo.epizy.com/yitm/">
+                <img src={require("../assets/images/yitm.png")} alt="yitm" />
+              </a>
             </Col>
             <Col xs={6} sm={2}>
-              <img src={require("../assets/images/digiforge.png")} alt="yitm" />
+              <a href="http://shinphoo.epizy.com/dm/">
+                <img src={require("../assets/images/demon.png")} alt="demon" />
+              </a>
             </Col>
             <Col xs={6} sm={2}>
-              <img src={require("../assets/images/demon.png")} alt="yitm" />
-            </Col>
-            <Col xs={6} sm={2}>
-              <img src={require("../assets/images/ydth.png")} alt="yitm" />
+              <a href="http://shinphoo.epizy.com/travel/">
+                <img src={require("../assets/images/ydth.png")} alt="ydth" />
+              </a>
             </Col>
 
             <Col xs={6} sm={2}>
-              <img src={require("../assets/images/flipped.png")} alt="yitm" />
+              <a href="http://shinphoo.epizy.com/">
+                <img
+                  src={require("../assets/images/flipped.png")}
+                  alt="flipped"
+                />
+              </a>
             </Col>
             <Col xs={6} sm={2}>
-              <img src={require("../assets/images/reg.png")} alt="yitm" />
+              <a href="http://shinphoo.epizy.com/reg/">
+                <img src={require("../assets/images/reg.png")} alt="reg" />
+              </a>
             </Col>
           </Row>
         </div>
