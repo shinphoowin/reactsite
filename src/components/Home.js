@@ -125,18 +125,16 @@ class Home extends Component {
               </a>
             </Col>
             <Col sm={4}>
-              <a href="https://shinphoowin.github.io/reactform/">
+              <a href="https://shinphoowin.github.io/todos-app/">
                 <img
                   src={require("../assets/images/logo.svg")}
                   alt="backbonelearning"
                 />
-                <h4>Form Handling By React</h4>
+                <h4>Todos app by useReducer hook</h4>
                 <p>
-                  This is my react learing tutorial.
+                  just my share
                   <br />
-                  e-book : learning online react sites
-                  <br />
-                  <b>Usage : React.js</b>
+                  <em>Usage : React.js latest version</em>
                 </p>
               </a>
             </Col>
@@ -152,7 +150,7 @@ class Home extends Component {
                   <br />
                   e-book : learning online react sites
                   <br />
-                  <b>Usage : React.js</b>
+                  <em>Usage : React.js</em>
                 </p>
               </a>
             </Col>
