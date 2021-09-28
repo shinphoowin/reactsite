@@ -262,7 +262,7 @@ footer {
   border: 2px solid brown;
 }
 img {
-  box-shadow: 0 0 4px 0 #aaa;
+  box-shadow: 0 0 4px 0 #888;
 }
 .header__bg,
 .topheader__bg,
@@ -474,4 +474,7 @@ footer ul li a {
   .col-sm-2 {
     width: 19.666667% !important;
   }
+  .col-sm-3 {
+    padding: 20px!important;
+}
 }

@@ -108,7 +108,7 @@ class Home extends Component {
 
         <div className="subsection learning">
           <Row>
-            <Col sm={4}>
+            <Col sm={3}>
               <a href="https://shinphoowin.github.io/backbone_hotellist/">
                 <img
                   src={require("../assets/images/backbone.png")}
@@ -124,7 +124,7 @@ class Home extends Component {
                 </p>
               </a>
             </Col>
-            <Col sm={4}>
+            <Col sm={3}>
               <a href="https://shinphoowin.github.io/todos-app/">
                 <img
                   src={require("../assets/images/logo.svg")}
@@ -134,12 +134,28 @@ class Home extends Component {
                 <p>
                   just my share
                   <br />
-                  <em>Usage : React.js latest version</em>
+                  <b>Usage : React.js latest version</b>
                 </p>
               </a>
             </Col>
-            <Col sm={4}>
-              <a href="https://shinphoowin.github.io/reactapi/">
+            <Col sm={3}>
+              
+              <a onClick={() => alert("comming soon")}>
+                <img
+                  src={require("../assets/images/logo.svg")}
+                  alt="reactleraning"
+                />
+                <h4>Mini Shop</h4>
+                <p>
+                  created this for cannot show my real expereiences are admin panel
+                  <br />
+                    <b>Usage : React latest, Redux, Context, Hooks, API implementation</b>
+                    <a href="https://fakestoreapi.com/" style={{display: "block"}}> use https://fakestoreapi.com/</a>
+                </p>
+              </a>
+            </Col>
+            <Col sm={3}>
+            <a href="https://shinphoowin.github.io/reactapi/">
                 <img
                   src={require("../assets/images/logo.svg")}
                   alt="reactleraning"
@@ -150,7 +166,7 @@ class Home extends Component {
                   <br />
                   e-book : learning online react sites
                   <br />
-                  <em>Usage : React.js</em>
+                  <b>Usage : React.js</b>
                 </p>
               </a>
             </Col>
