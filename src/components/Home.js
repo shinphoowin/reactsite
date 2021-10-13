@@ -139,23 +139,35 @@ class Home extends Component {
               </a>
             </Col>
             <Col sm={3}>
-              
-              <a onClick={() => alert("comming soon")}>
+              <a href="https://minifolio.herokuapp.com/">
                 <img
                   src={require("../assets/images/logo.svg")}
                   alt="reactleraning"
                 />
-                <h4>Mini Shop</h4>
+                <h4>
+                  Mini Shop (routing and store creation may not same with real
+                  life project)
+                </h4>
                 <p>
-                  created this for cannot show my real expereiences are admin panel
+                  created this for cannot show my real expereiences are admin
+                  panel
                   <br />
-                    <b>Usage : React latest, Redux, Context, Hooks, API implementation</b>
-                    <a href="https://fakestoreapi.com/" style={{display: "block"}}> use https://fakestoreapi.com/</a>
+                  <b>
+                    Usage : React latest, Redux, Context, Hooks, API
+                    implementation
+                  </b>
+                  <a
+                    href="https://fakestoreapi.com/"
+                    style={{ display: "block" }}
+                  >
+                    {" "}
+                    use https://fakestoreapi.com/
+                  </a>
                 </p>
               </a>
             </Col>
             <Col sm={3}>
-            <a href="https://shinphoowin.github.io/reactapi/">
+              <a href="https://shinphoowin.github.io/reactapi/">
                 <img
                   src={require("../assets/images/logo.svg")}
                   alt="reactleraning"
