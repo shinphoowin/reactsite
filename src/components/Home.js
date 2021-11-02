@@ -108,7 +108,7 @@ class Home extends Component {
 
         <div className="subsection learning">
           <Row>
-            <Col sm={3}>
+            <Col sm={2}>
               <a href="https://shinphoowin.github.io/backbone_hotellist/">
                 <img
                   src={require("../assets/images/backbone.png")}
@@ -124,7 +124,7 @@ class Home extends Component {
                 </p>
               </a>
             </Col>
-            <Col sm={3}>
+            <Col sm={2}>
               <a href="https://shinphoowin.github.io/todos-app/">
                 <img
                   src={require("../assets/images/logo.svg")}
@@ -138,7 +138,7 @@ class Home extends Component {
                 </p>
               </a>
             </Col>
-            <Col sm={3}>
+            <Col sm={2}>
               <a href="https://minifolio.herokuapp.com/">
                 <img
                   src={require("../assets/images/logo.svg")}
@@ -166,7 +166,7 @@ class Home extends Component {
                 </p>
               </a>
             </Col>
-            <Col sm={3}>
+            <Col sm={2}>
               <a href="https://shinphoowin.github.io/reactapi/">
                 <img
                   src={require("../assets/images/logo.svg")}
@@ -179,6 +179,22 @@ class Home extends Component {
                   e-book : learning online react sites
                   <br />
                   <b>Usage : React.js</b>
+                </p>
+              </a>
+            </Col>
+            <Col sm={2}>
+              <a href="https://shinphoowin.github.io/chart-demo/">
+                <img
+                  src={require("../assets/images/logo.svg")}
+                  alt="reactleraning"
+                />
+                <h4>Dynamic Chart</h4>
+                <p>
+                  e-book : learning online react sites
+                  <br />
+                  <b>
+                    Usage : React, react-chartjs-2 package, Semntic-ui-react
+                  </b>
                 </p>
               </a>
             </Col>

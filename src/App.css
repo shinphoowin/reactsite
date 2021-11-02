@@ -396,8 +396,8 @@ footer ul li a {
   border-radius: 50%;
 }
 .learning img {
-  width: 100px;
-  height: 100px;
+  width: 90px;
+  height: 90px;
 }
 .learning .col-sm-4 {
   text-align: center;
@@ -475,6 +475,6 @@ footer ul li a {
     width: 19.666667% !important;
   }
   .col-sm-3 {
-    padding: 20px!important;
-}
+    padding: 20px !important;
+  }
 }

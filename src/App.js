@@ -6,28 +6,6 @@ import "./assets/css/fontAwesome.css";
 import "./App.css";
 
 class App extends Component {
-  // componentDidMount(){
-  //   console.log("didmount fun start");
-  //   console.log(window);
-  //   window.addEventListener('resize', this.handleResize);
-  // }
-
-  // handleResize(){
-  //   console.log("handleResize hit");
-  //   console.log($(window).width());
-  //   // const el = findDOMNode(this.refs.cur_windowSize);
-  //   this.setState({width: $(window).width(),height: $(window).height()})
-  // }
-
-  // componentWillMount(){
-  //   console.log("willMount Run");
-  //   this.handleResize();
-  // }
-
-  // componnetWillUnmount(){
-  //   window.removeEventListener("resize", this.handleResize)
-  // }
-
   handleScroll = (e) => {
     const el = findDOMNode(this.refs.custum_scrollTopBtn);
     $(el).click(function () {
