@@ -8,6 +8,76 @@ import NavItem from "react-bootstrap/lib/NavItem";
 import NavbarCollapse from "react-bootstrap/lib/NavbarCollapse";
 import NavbarToggle from "react-bootstrap/lib/NavbarToggle";
 import NavbarHeader from "react-bootstrap/lib/NavbarHeader";
+import { Accordion, Label } from "semantic-ui-react";
+
+const panels = [
+  {
+    title: {
+      content: (
+        <Label content={"Screen Cast First"} className="mini-accordion" />
+      ),
+    },
+    content: {
+      content: (
+        <img
+          src={require("../assets/images/Peek 2021-11-26 15-23.gif")}
+          type="video/mp4"
+          style={{
+            width: "350px",
+            borderRadius: 8,
+            marginTop: 60,
+            marginBottom: 40,
+          }}
+          alt="screencast1"
+        />
+      ),
+    },
+  },
+  {
+    title: {
+      content: (
+        <Label content={"Screen Cast Second"} className="mini-accordion" />
+      ),
+    },
+    content: {
+      content: (
+        <img
+          src={require("../assets/images/Peek 2021-11-26 15-42.gif")}
+          type="video/mp4"
+          style={{
+            width: "350px",
+            borderRadius: 8,
+            marginTop: 60,
+            marginBottom: 40,
+          }}
+          alt="screencast2"
+        />
+      ),
+    },
+  },
+  {
+    title: {
+      content: (
+        <Label content={"Screen Cast Third"} className="mini-accordion" />
+      ),
+    },
+    content: {
+      content: (
+        <img
+          src={require("../assets/images/Peek 2021-11-26 15-34.gif")}
+          type="video/mp4"
+          style={{
+            width: "350px",
+            borderRadius: 8,
+            marginTop: 60,
+            marginBottom: 40,
+          }}
+          alt="screencast3"
+        />
+      ),
+    },
+  },
+];
 
 class Home extends Component {
   render() {
@@ -202,18 +272,32 @@ class Home extends Component {
         </div>
 
         <h2 className="title" id="workexp">
-          Real live project screencasts
+          project screencasts
         </h2>
+        <br />
+        <br />
 
         <Row>
           <Col>
+            <h3 id="workexp">Web Admin Panel</h3>
             <img
               src={require("../assets/images/Peek 2021-11-26 14-55.gif")}
               type="video/mp4"
-              style={{ width: "80%", borderRadius: 8, marginTop: 40 }}
+              style={{ width: "80%", borderRadius: 8 }}
             />
           </Col>
         </Row>
+        <br />
+        <br />
+
+        <Row>
+          <Col sm={6}>
+            <h3 id="workexp">Mobile Apps by React Native</h3>
+            <Accordion panels={panels} />
+          </Col>
+        </Row>
+        <br />
+        <br />
 
         <footer>
           <div className="header__bg"></div>

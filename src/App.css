@@ -478,3 +478,11 @@ footer ul li a {
     padding: 20px !important;
   }
 }
+.ui.accordion .title {
+  text-align: left;
+}
+.mini-accordion {
+  font-size: 17px !important;
+  background: #ae9350 !important;
+  color: #fff !important;
+}
