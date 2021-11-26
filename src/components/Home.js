@@ -204,18 +204,16 @@ class Home extends Component {
         <h2 className="title" id="workexp">
           Real live project screencasts
         </h2>
-        <div className="subsection learning">
-          <Row>
-            <Col>
-              <video width="100%" height="auto" controls>
-                <source
-                  src={require("../assets/images/newjobtry_austrilla .mp4")}
-                  type="video/mp4"
-                />
-              </video>
-            </Col>
-          </Row>
-        </div>
+
+        <Row>
+          <Col>
+            <img
+              src={require("../assets/images/Peek 2021-11-26 14-55.gif")}
+              type="video/mp4"
+              style={{ width: "80%", borderRadius: 8, marginTop: 40 }}
+            />
+          </Col>
+        </Row>
 
         <footer>
           <div className="header__bg"></div>
