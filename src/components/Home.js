@@ -311,11 +311,6 @@ class Home extends Component {
                     </a>
                   </li>
                   <li>
-                    <a href="https://en-gb.facebook.com/ShinPhooWin">
-                      <i className="fa fa-facebook"></i>
-                    </a>
-                  </li>
-                  <li>
                     <a href="https://twitter.com/ShinPhooWin?lang=en">
                       <i className="fa fa-twitter"></i>
                     </a>
