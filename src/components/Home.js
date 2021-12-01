@@ -19,17 +19,19 @@ const panels = [
     },
     content: {
       content: (
-        <img
-          src={require("../assets/images/Peek 2021-11-26 15-23.gif")}
-          type="video/mp4"
-          style={{
-            width: "350px",
-            borderRadius: 8,
-            marginTop: 60,
-            marginBottom: 40,
-          }}
-          alt="screencast1"
-        />
+        <Row>
+          <Col sm={4}>
+            <img
+              src={require("../assets/images/Peek 2021-11-26 15-23.gif")}
+              type="video/mp4"
+              style={{
+                width: "100%",
+                borderRadius: 8,
+              }}
+              alt="screencast1"
+            />
+          </Col>
+        </Row>
       ),
     },
   },
@@ -41,17 +43,19 @@ const panels = [
     },
     content: {
       content: (
-        <img
-          src={require("../assets/images/Peek 2021-11-26 15-42.gif")}
-          type="video/mp4"
-          style={{
-            width: "350px",
-            borderRadius: 8,
-            marginTop: 60,
-            marginBottom: 40,
-          }}
-          alt="screencast2"
-        />
+        <Row>
+          <Col sm={4}>
+            <img
+              src={require("../assets/images/Peek 2021-11-26 15-42.gif")}
+              type="video/mp4"
+              style={{
+                width: "100%",
+                borderRadius: 8,
+              }}
+              alt="screencast2"
+            />
+          </Col>
+        </Row>
       ),
     },
   },
@@ -63,17 +67,19 @@ const panels = [
     },
     content: {
       content: (
-        <img
-          src={require("../assets/images/Peek 2021-11-26 15-34.gif")}
-          type="video/mp4"
-          style={{
-            width: "350px",
-            borderRadius: 8,
-            marginTop: 60,
-            marginBottom: 40,
-          }}
-          alt="screencast3"
-        />
+        <Row>
+          <Col sm={4}>
+            <img
+              src={require("../assets/images/Peek 2021-11-26 15-34.gif")}
+              type="video/mp4"
+              style={{
+                width: "100%",
+                borderRadius: 8,
+              }}
+              alt="screencast3"
+            />
+          </Col>
+        </Row>
       ),
     },
   },
@@ -283,7 +289,7 @@ class Home extends Component {
             <img
               src={require("../assets/images/Peek 2021-11-26 14-55.gif")}
               type="video/mp4"
-              style={{ width: "80%", borderRadius: 8 }}
+              style={{ width: "100%", borderRadius: 8 }}
             />
           </Col>
         </Row>
