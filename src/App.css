@@ -429,6 +429,20 @@ footer ul li a {
   .maintitle h2 {
     font-size: 22px;
   }
+  .col-sm-2 {
+    margin-top: 35px;
+    font-size: 16px;
+  }
+  .subsection img {
+    margin-bottom: 0;
+  }
+  .subsection h4 {
+    margin-top: 8px;
+    font-size: 1.28571429rem;
+  }
+  .subsection h2:first-child {
+    margin-top: 2px !important;
+  }
 }
 @media (max-width: 400px) {
   .subsection .col-xs-6 {
