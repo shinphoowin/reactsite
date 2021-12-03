@@ -87,7 +87,6 @@ video {
   padding: 0;
   border: 0;
   font-size: 100%;
-  font: inherit;
   vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
@@ -105,9 +104,8 @@ section {
   display: block;
 }
 body {
-  font-size: 14px;
+  font-size: 17px;
   line-height: 1.5em;
-  font-family: "Droid Sans";
 }
 ul {
   list-style: none;
@@ -157,9 +155,6 @@ a:focus {
 .navbar-toggle {
   border: none;
   background: transparent !important;
-  &:hover {
-    background: transparent !important;
-  }
 }
 .navbar-toggle .icon-bar {
   width: 22px;
@@ -249,7 +244,10 @@ footer {
   border-top: 100px solid red;
   border-left: 100px solid transparent;
 }
-
+h3.subtitle {
+  font-size: 18px;
+  padding-bottom: 20px;
+}
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
@@ -350,14 +348,14 @@ ol {
   font-size: 22px;
 }
 .subtitle em {
-  font-size: 14px;
+  font-size: 18px;
 }
 .right_text p {
-  font-size: 16px;
+  font-size: 18px;
   line-height: 25px;
 }
 footer p {
-  margin: 10px 0 10px;
+  margin: 40px 0 10px;
 }
 /*footer*/
 footer {
@@ -402,7 +400,9 @@ footer ul li a {
 .learning .col-sm-4 {
   text-align: center;
 }
-
+.ui.label {
+  font-weight: normal;
+}
 @media (max-width: 850px) {
   .ziggy_top {
     padding: 150px 0px 200px 0px;

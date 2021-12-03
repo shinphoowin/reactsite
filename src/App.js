@@ -2,8 +2,6 @@ import React, { Component } from "react";
 import Home from "./components/Home";
 import { findDOMNode } from "react-dom";
 import $ from "jquery";
-import "./assets/css/fontAwesome.css";
-import "./App.css";
 
 class App extends Component {
   handleScroll = (e) => {

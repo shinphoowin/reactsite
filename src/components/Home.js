@@ -285,7 +285,7 @@ class Home extends Component {
 
         <Row>
           <Col>
-            <h3 id="workexp">Web Admin Panel</h3>
+            <h3 className="subtitle">Web Admin Panel</h3>
             <img
               src={require("../assets/images/Peek 2021-11-26 14-55.gif")}
               type="video/mp4"
@@ -298,7 +298,7 @@ class Home extends Component {
 
         <Row>
           <Col sm={6}>
-            <h3 id="workexp">Mobile Apps by React Native</h3>
+            <h3 className="subtitle">Mobile Apps by React Native</h3>
             <Accordion panels={panels} />
           </Col>
         </Row>
