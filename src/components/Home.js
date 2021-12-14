@@ -220,13 +220,11 @@ class Home extends Component {
                   src={require("../assets/images/logo.svg")}
                   alt="reactleraning"
                 />
-                <h4>
-                  Mini Shop (routing and store creation may not same with real
-                  life project)
-                </h4>
+                <h4>Mini Shop</h4>
                 <p>
-                  created this for cannot show my real expereiences are admin
-                  panel
+                  <em style={{ color: "#ffc107" }}>
+                    slow in starting because of Heroku server free version
+                  </em>
                   <br />
                   <b>
                     Usage : React latest, Redux, Context, Hooks, API
@@ -237,7 +235,7 @@ class Home extends Component {
                     style={{ display: "block" }}
                   >
                     {" "}
-                    use https://fakestoreapi.com/
+                    api: https://fakestoreapi.com/
                   </a>
                 </p>
               </a>
@@ -264,7 +262,7 @@ class Home extends Component {
                   src={require("../assets/images/logo.svg")}
                   alt="reactleraning"
                 />
-                <h4>Dynamic Chart</h4>
+                <h4>Dynamic Chart(Only Desktop Ui)</h4>
                 <p>
                   e-book : learning online react sites
                   <br />
@@ -277,13 +275,13 @@ class Home extends Component {
           </Row>
         </div>
 
-        <h2 className="title" id="workexp">
+        {/* <h2 className="title" id="workexp">
           project screencasts
-        </h2>
-        <br />
-        <br />
+        </h2> */}
+        {/* <br />
+        <br /> */}
 
-        <Row>
+        {/* <Row>
           <Col>
             <h3 className="subtitle">Web Admin Panel</h3>
             <img
@@ -303,7 +301,7 @@ class Home extends Component {
           </Col>
         </Row>
         <br />
-        <br />
+        <br /> */}
 
         <footer>
           <div className="header__bg"></div>
