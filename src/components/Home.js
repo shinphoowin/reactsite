@@ -8,82 +8,6 @@ import NavItem from "react-bootstrap/lib/NavItem";
 import NavbarCollapse from "react-bootstrap/lib/NavbarCollapse";
 import NavbarToggle from "react-bootstrap/lib/NavbarToggle";
 import NavbarHeader from "react-bootstrap/lib/NavbarHeader";
-import { Accordion, Label } from "semantic-ui-react";
-
-const panels = [
-  {
-    title: {
-      content: (
-        <Label content={"Screen Cast First"} className="mini-accordion" />
-      ),
-    },
-    content: {
-      content: (
-        <Row>
-          <Col sm={4}>
-            <img
-              src={require("../assets/images/Peek 2021-11-26 15-23.gif")}
-              type="video/mp4"
-              style={{
-                width: "100%",
-                borderRadius: 8,
-              }}
-              alt="screencast1"
-            />
-          </Col>
-        </Row>
-      ),
-    },
-  },
-  {
-    title: {
-      content: (
-        <Label content={"Screen Cast Second"} className="mini-accordion" />
-      ),
-    },
-    content: {
-      content: (
-        <Row>
-          <Col sm={4}>
-            <img
-              src={require("../assets/images/Peek 2021-11-26 15-42.gif")}
-              type="video/mp4"
-              style={{
-                width: "100%",
-                borderRadius: 8,
-              }}
-              alt="screencast2"
-            />
-          </Col>
-        </Row>
-      ),
-    },
-  },
-  {
-    title: {
-      content: (
-        <Label content={"Screen Cast Third"} className="mini-accordion" />
-      ),
-    },
-    content: {
-      content: (
-        <Row>
-          <Col sm={4}>
-            <img
-              src={require("../assets/images/Peek 2021-11-26 15-34.gif")}
-              type="video/mp4"
-              style={{
-                width: "100%",
-                borderRadius: 8,
-              }}
-              alt="screencast3"
-            />
-          </Col>
-        </Row>
-      ),
-    },
-  },
-];
 
 class Home extends Component {
   render() {
@@ -114,10 +38,15 @@ class Home extends Component {
                 <h2>WELCOME TO MY PERSONAL SITE</h2>
                 <p>
                   <span>
-                    Shin Phoo Win - Front End Developer (React, React Native,
-                    Redux, Nodejs)
+                    Hi, this is Shin Phoo Win, Specialist in Front End,
+                    Intermediate in FullStack keeping abreast with latest
+                    technologies
                   </span>
                 </p>
+                <h2 className="title">
+                  (HTML5, CSS3, React, React Native, Redux, Node.js, Next.js)
+                </h2>
+
                 <div className="topheader__bg"></div>
               </div>
             </Row>
@@ -173,7 +102,7 @@ class Home extends Component {
                 </h2>
                 <p>
                   As you know, javascript is becoming most important in today
-                  webdevelopment, I am filling my js skills every time for
+                  web development, I am filling my js skills every time for
                   development.
                 </p>
               </Col>
@@ -184,7 +113,7 @@ class Home extends Component {
 
         <div className="subsection learning">
           <Row>
-            <Col sm={2}>
+            <Col xs={6} sm={3} className="lightShadowBg">
               <a href="https://shinphoowin.github.io/backbone_hotellist/">
                 <img
                   src={require("../assets/images/backbone.png")}
@@ -200,109 +129,62 @@ class Home extends Component {
                 </p>
               </a>
             </Col>
-            <Col sm={2}>
+
+            <Col xs={6} sm={3} className="lightShadowBg">
               <a href="https://shinphoowin.github.io/todos-app/">
-                <img
-                  src={require("../assets/images/logo.svg")}
-                  alt="backbonelearning"
-                />
-                <h4>Todos app by useReducer hook</h4>
+                <img src={require("../assets/images/logo.svg")} alt="react" />
+
                 <p>
-                  just my share
-                  <br />
-                  <b>Usage : React.js latest version</b>
+                  <h4>Todos app by useReducer hook</h4>
+                  Used By : React.js latest version
                 </p>
               </a>
             </Col>
-            <Col sm={2}>
-              <a href="https://minifolio.herokuapp.com/">
+            <Col xs={6} sm={3} className="lightShadowBg">
+              <a
+                href="https://react-firebase-gallery-dce19.web.app/"
+                alt="logo img"
+              >
                 <img
                   src={require("../assets/images/logo.svg")}
-                  alt="reactleraning"
+                  className="imgAdjust"
                 />
-                <h4>Mini Shop</h4>
+                <img
+                  src={require("../assets/images/firebase.png")}
+                  alt="firebase"
+                />
+                <h4>Photo Uploader</h4>
                 <p>
-                  <em style={{ color: "#ffc107" }}>
-                    slow in starting because of Heroku server free version
-                  </em>
-                  <br />
-                  <b>
-                    Usage : React latest, Redux, Context, Hooks, API
-                    implementation
-                  </b>
-                  <a
-                    href="https://fakestoreapi.com/"
-                    style={{ display: "block" }}
-                  >
-                    {" "}
-                    api: https://fakestoreapi.com/
-                  </a>
+                  Used technologies :{" "}
+                  <ol style={{ paddingLeft: 20 }}>
+                    <li>React</li>
+                    <li>Firebase</li>
+                    <li>Material Ui</li>
+                    <li>react-material-ui-carousel</li>
+                  </ol>
                 </p>
               </a>
             </Col>
-            <Col sm={2}>
-              <a href="https://shinphoowin.github.io/reactapi/">
-                <img
-                  src={require("../assets/images/logo.svg")}
-                  alt="reactleraning"
-                />
-                <h4>Fetching API via React.js</h4>
-                <p>
-                  This is my react learing tutorial.
-                  <br />
-                  e-book : learning online react sites
-                  <br />
-                  <b>Usage : React.js</b>
-                </p>
-              </a>
-            </Col>
-            <Col sm={2}>
+            <Col xs={6} sm={3} className="lightShadowBg">
               <a href="https://shinphoowin.github.io/chart-demo/">
                 <img
                   src={require("../assets/images/logo.svg")}
                   alt="reactleraning"
                 />
-                <h4>Dynamic Chart(Only Desktop Ui)</h4>
-                <p>
-                  e-book : learning online react sites
+                <h4>
+                  Dynamic Chart
                   <br />
-                  <b>
-                    Usage : React, react-chartjs-2 package, Semntic-ui-react
-                  </b>
-                </p>
+                  (Desktop Ui Only)
+                </h4>
+                <ol style={{ paddingLeft: 20 }}>
+                  <li>React</li>
+                  <li>react-chartjs-2 package</li>
+                  <li>Semntic-ui-react</li>
+                </ol>
               </a>
             </Col>
           </Row>
         </div>
-
-        {/* <h2 className="title" id="workexp">
-          project screencasts
-        </h2> */}
-        {/* <br />
-        <br /> */}
-
-        {/* <Row>
-          <Col>
-            <h3 className="subtitle">Web Admin Panel</h3>
-            <img
-              src={require("../assets/images/Peek 2021-11-26 14-55.gif")}
-              type="video/mp4"
-              style={{ width: "100%", borderRadius: 8 }}
-            />
-          </Col>
-        </Row>
-        <br />
-        <br />
-
-        <Row>
-          <Col sm={6}>
-            <h3 className="subtitle">Mobile Apps by React Native</h3>
-            <Accordion panels={panels} />
-          </Col>
-        </Row>
-        <br />
-        <br /> */}
-
         <footer>
           <div className="header__bg"></div>
           <Grid>
@@ -322,11 +204,6 @@ class Home extends Component {
                   <li>
                     <a href="https://www.linkedin.com/in/shin-phoo-win-3b658799/">
                       <i className="fa fa-linkedin"></i>
-                    </a>
-                  </li>
-                  <li>
-                    <a href="https://plus.google.com/u/0/+ShinPhooWinwin">
-                      <i className="fa fa-google-plus"></i>
                     </a>
                   </li>
                 </ul>

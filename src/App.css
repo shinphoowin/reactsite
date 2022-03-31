@@ -259,9 +259,6 @@ h3.subtitle {
 .App-intro1 {
   border: 2px solid brown;
 }
-img {
-  box-shadow: 0 0 4px 0 #888;
-}
 .header__bg,
 .topheader__bg,
 .customSkew1,
@@ -394,8 +391,8 @@ footer ul li a {
   border-radius: 50%;
 }
 .learning img {
-  width: 90px;
-  height: 90px;
+  width: 80px;
+  height: 80px;
 }
 .learning .col-sm-4 {
   text-align: center;
@@ -499,4 +496,22 @@ footer ul li a {
   font-size: 17px !important;
   background: #ae9350 !important;
   color: #fff !important;
+}
+.maintitle h2.title {
+  font-size: 20px;
+}
+.subsection img.imgAdjust {
+  float: left !important;
+  margin-right: -100px !important;
+}
+.lightShadowBg a {
+  background: #f8f8f8;
+  display: block;
+  padding: 12px;
+}
+
+.subsection img.imgAdjust {
+  float: left !important;
+  margin-right: -35px !important;
+  margin-left: 35px;
 }
