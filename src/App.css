@@ -282,11 +282,8 @@ h3.subtitle {
   transform-origin: top right;
 }
 .customSkewWrap {
-  position: relative;
-  margin: 15% 0;
-}
-.customSkewWrap {
   padding: 10% 0;
+  position: relative;
 }
 .customSkew1,
 .customSkew {
@@ -300,7 +297,7 @@ h3.subtitle {
   transform: skewY(8deg);
 }
 .subsection {
-  margin: 8% 0;
+  margin: 6% 0;
 }
 .subsection img {
   width: 150px;
@@ -391,8 +388,9 @@ footer ul li a {
   border-radius: 50%;
 }
 .learning img {
-  width: 80px;
   height: 80px;
+  margin: auto;
+  display: block;
 }
 .learning .col-sm-4 {
   text-align: center;
@@ -400,20 +398,15 @@ footer ul li a {
 .ui.label {
   font-weight: normal;
 }
-.subsection img.imgAdjust {
-  float: left !important;
-  margin-right: -100px !important;
-}
 .lightShadowBg a {
-  background: #f8f8f8;
   display: block;
   padding: 12px;
   min-height: 264px;
   margin-bottom: 17px;
+  box-shadow: 2px 1px #f1f1f1;
 }
-
-.subsection img.imgAdjust {
-  display: flex;
+.learning {
+  margin-top: 8% !important;
 }
 @media (max-width: 850px) {
   .ziggy_top {
@@ -439,13 +432,16 @@ footer ul li a {
   .lightShadowBg {
     margin-bottom: 22px;
   }
+  .title {
+    margin-top: 20px;
+  }
 }
 @media (max-width: 507px) {
   .maintitle h2 {
     font-size: 22px;
   }
   .col-sm-2 {
-    margin-top: 35px;
+    margin: 13px 0 20px 0;
     font-size: 16px;
   }
   .subsection img {

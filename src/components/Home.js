@@ -111,7 +111,7 @@ class Home extends Component {
           <div className="customSkew1"></div>
         </div>
 
-        <div className="subsection learning">
+        <div className="learning">
           <Row>
             <Col xs={12} sm={6} lg={3} className="lightShadowBg">
               <a href="https://shinphoowin.github.io/backbone_hotellist/">
@@ -119,24 +119,45 @@ class Home extends Component {
                   src={require("../assets/images/backbone.png")}
                   alt="backbonelearning"
                 />
-                <h4>Hotel Lists By Backbone.js</h4>
+
                 <p>
-                  This is my backbone learing tutorial.
-                  <br />
-                  e-book : backbone-fundamentals by Addy Osmani
-                  <br />
-                  <b>Usage: Backbone.js</b>
+                  <h4>Hotel Lists By Backbone.js</h4>
+                  Used technologies :{" "}
+                  <ol style={{ paddingLeft: 20 }}>
+                    <li>Backbone</li>
+                  </ol>
                 </p>
               </a>
             </Col>
 
             <Col xs={12} sm={6} lg={3} className="lightShadowBg">
+              <a href="https://shinphoowin.github.io/chart-demo/">
+                <img
+                  src={require("../assets/images/chartApp.jpg")}
+                  alt="reactleraning"
+                />
+                <h4>
+                  Dynamic Chart
+                  <br />
+                  (Desktop Ui Only)
+                </h4>
+                Used technologies :{" "}
+                <ol style={{ paddingLeft: 20 }}>
+                  <li>React</li>
+                  <li>react-chartjs-2 package</li>
+                  <li>Semntic-ui-react</li>
+                </ol>
+              </a>
+            </Col>
+            <Col xs={12} sm={6} lg={3} className="lightShadowBg">
               <a href="https://shinphoowin.github.io/todos-app/">
                 <img src={require("../assets/images/logo.svg")} alt="react" />
-
                 <p>
                   <h4>Todos app by useReducer hook</h4>
-                  Used By : React.js latest version
+                  Used technologies :{" "}
+                  <ol style={{ paddingLeft: 20 }}>
+                    <li>React latest version</li>
+                  </ol>
                 </p>
               </a>
             </Col>
@@ -145,7 +166,7 @@ class Home extends Component {
                 href="https://react-firebase-gallery-dce19.web.app/"
                 alt="logo img"
               >
-                <img src={require("../assets/images/logo.svg")} />
+                <img src={require("../assets/images/photouploadApp.jpg")} />
 
                 <h4>Photo Uploader</h4>
                 <p>
@@ -157,24 +178,6 @@ class Home extends Component {
                     <li>react-material-ui-carousel</li>
                   </ol>
                 </p>
-              </a>
-            </Col>
-            <Col xs={12} sm={6} lg={3} className="lightShadowBg">
-              <a href="https://shinphoowin.github.io/chart-demo/">
-                <img
-                  src={require("../assets/images/logo.svg")}
-                  alt="reactleraning"
-                />
-                <h4>
-                  Dynamic Chart
-                  <br />
-                  (Desktop Ui Only)
-                </h4>
-                <ol style={{ paddingLeft: 20 }}>
-                  <li>React</li>
-                  <li>react-chartjs-2 package</li>
-                  <li>Semntic-ui-react</li>
-                </ol>
               </a>
             </Col>
           </Row>
