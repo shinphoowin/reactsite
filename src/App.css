@@ -400,6 +400,21 @@ footer ul li a {
 .ui.label {
   font-weight: normal;
 }
+.subsection img.imgAdjust {
+  float: left !important;
+  margin-right: -100px !important;
+}
+.lightShadowBg a {
+  background: #f8f8f8;
+  display: block;
+  padding: 12px;
+  min-height: 264px;
+  margin-bottom: 17px;
+}
+
+.subsection img.imgAdjust {
+  display: flex;
+}
 @media (max-width: 850px) {
   .ziggy_top {
     padding: 150px 0px 200px 0px;
@@ -420,6 +435,9 @@ footer ul li a {
 @media (max-width: 767px) {
   .learning .col-sm-4 {
     margin-bottom: 50px;
+  }
+  .lightShadowBg {
+    margin-bottom: 22px;
   }
 }
 @media (max-width: 507px) {
@@ -499,19 +517,4 @@ footer ul li a {
 }
 .maintitle h2.title {
   font-size: 20px;
-}
-.subsection img.imgAdjust {
-  float: left !important;
-  margin-right: -100px !important;
-}
-.lightShadowBg a {
-  background: #f8f8f8;
-  display: block;
-  padding: 12px;
-}
-
-.subsection img.imgAdjust {
-  float: left !important;
-  margin-right: -35px !important;
-  margin-left: 35px;
 }

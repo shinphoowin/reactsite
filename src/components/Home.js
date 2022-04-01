@@ -113,7 +113,7 @@ class Home extends Component {
 
         <div className="subsection learning">
           <Row>
-            <Col xs={6} sm={3} className="lightShadowBg">
+            <Col xs={12} sm={6} lg={3} className="lightShadowBg">
               <a href="https://shinphoowin.github.io/backbone_hotellist/">
                 <img
                   src={require("../assets/images/backbone.png")}
@@ -130,7 +130,7 @@ class Home extends Component {
               </a>
             </Col>
 
-            <Col xs={6} sm={3} className="lightShadowBg">
+            <Col xs={12} sm={6} lg={3} className="lightShadowBg">
               <a href="https://shinphoowin.github.io/todos-app/">
                 <img src={require("../assets/images/logo.svg")} alt="react" />
 
@@ -140,19 +140,13 @@ class Home extends Component {
                 </p>
               </a>
             </Col>
-            <Col xs={6} sm={3} className="lightShadowBg">
+            <Col xs={12} sm={6} lg={3} className="lightShadowBg">
               <a
                 href="https://react-firebase-gallery-dce19.web.app/"
                 alt="logo img"
               >
-                <img
-                  src={require("../assets/images/logo.svg")}
-                  className="imgAdjust"
-                />
-                <img
-                  src={require("../assets/images/firebase.png")}
-                  alt="firebase"
-                />
+                <img src={require("../assets/images/logo.svg")} />
+
                 <h4>Photo Uploader</h4>
                 <p>
                   Used technologies :{" "}
@@ -165,7 +159,7 @@ class Home extends Component {
                 </p>
               </a>
             </Col>
-            <Col xs={6} sm={3} className="lightShadowBg">
+            <Col xs={12} sm={6} lg={3} className="lightShadowBg">
               <a href="https://shinphoowin.github.io/chart-demo/">
                 <img
                   src={require("../assets/images/logo.svg")}
