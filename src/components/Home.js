@@ -114,17 +114,20 @@ class Home extends Component {
         <div className="learning">
           <Row>
             <Col xs={12} sm={6} lg={3} className="lightShadowBg">
-              <a href="https://shinphoowin.github.io/backbone_hotellist/">
+              <a href="https://react-firebase-chat-7854e.web.app/">
                 <img
-                  src={require("../assets/images/backbone.png")}
+                  src={require("../assets/images/photouploadApp.jpg")}
                   alt="backbonelearning"
                 />
 
                 <p>
-                  <h4>Hotel Lists By Backbone.js</h4>
+                  <h4>Chat Application</h4>
                   Used technologies :{" "}
                   <ol style={{ paddingLeft: 20 }}>
-                    <li>Backbone</li>
+                    <li>Material Ui</li>
+                    <li>Firebase</li>
+                    <li>React</li>
+                    <li>Formik</li>
                   </ol>
                 </p>
               </a>
