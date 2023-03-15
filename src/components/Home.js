@@ -22,10 +22,10 @@ class Home extends Component {
                 About Me
               </NavItem>
               <NavItem eventKey={2} href="#workexp">
-                Work Experiences
+                Pixel Perfect Templates
               </NavItem>
               <NavItem eventKey={3} href="#jslearn">
-                Raise Javascript Skill
+                Level up Javascript Skill
               </NavItem>
             </Nav>
           </NavbarCollapse>
@@ -58,32 +58,32 @@ class Home extends Component {
         </h2>
         <div className="subsection">
           <Row>
-            <Col xs={6} sm={2}>
-              <a href="http://shinphoo.epizy.com/yitm/">
+            {/* <Col xs={6} sm={2}>
+              <a href="http://sgtry.infinityfreeapp.com/yitm/">
                 <img src={require("../assets/images/yitm.png")} alt="yitm" />
               </a>
-            </Col>
-            <Col xs={6} sm={2}>
-              <a href="http://shinphoo.epizy.com/dm/">
+            </Col> */}
+            <Col xs={6} sm={3}>
+              <a href="http://sgtry.infinityfreeapp.com/dm/">
                 <img src={require("../assets/images/demon.png")} alt="demon" />
               </a>
             </Col>
-            <Col xs={6} sm={2}>
-              <a href="http://shinphoo.epizy.com/travel/">
+            <Col xs={6} sm={3}>
+              <a href="http://sgtry.infinityfreeapp.com/ydth/">
                 <img src={require("../assets/images/ydth.png")} alt="ydth" />
               </a>
             </Col>
 
-            <Col xs={6} sm={2}>
-              <a href="http://shinphoo.epizy.com/">
+            <Col xs={6} sm={3}>
+              <a href="http://sgtry.infinityfreeapp.com/flipped/">
                 <img
                   src={require("../assets/images/flipped.png")}
                   alt="flipped"
                 />
               </a>
             </Col>
-            <Col xs={6} sm={2}>
-              <a href="http://shinphoo.epizy.com/reg/">
+            <Col xs={6} sm={3}>
+              <a href="http://sgtry.infinityfreeapp.com/reg/">
                 <img src={require("../assets/images/reg.png")} alt="reg" />
               </a>
             </Col>
